@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react-swc";
 export default defineConfig({
   base: "/",
   plugins: [react()],
-  build: {
-    outDir: "C:/Users/jsuur/Desktop/React/build",
-  },
+  // build: {
+  //   outDir: "C:/Users/jsuur/Desktop/React/build",
+  // },
 });
